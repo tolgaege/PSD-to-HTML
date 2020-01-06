@@ -1,0 +1,107 @@
+@font-face {
+  font-family: SFProText-Semibold;
+  src: url(../fonts/FontsFree-Net-SFProText-Semibold.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: Roboto-Regular;
+  src: url(../fonts/roboto-regular_[allfont.net].ttf) format('truetype');
+}
+
+body {
+  font-family: PingFang-SC;
+  color: #fff;
+}
+
+.nav-link {
+  font-family:  PingFang-SC-Medium;
+}
+
+.relay-icon {
+  width: 82px;
+  height: auto;
+}
+
+.main-page {
+  text-align: center;
+}
+
+.bg-phone {
+  display: block;
+  width: 100%;
+  height: auto;  
+}
+
+h1 {
+  font-size: 40px;
+  font-family: SFProText-Semibold;
+  color: #000000;
+}
+
+.store-link {
+  width: 100%;
+}
+.store-link-icon {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.qrcode-link:hover + .qrcode-container {
+  display: block;
+}
+
+.qt-icon {
+  width: 60px;
+  height: 60px;
+  margin-top: 45px;
+}
+
+.page-footer {
+  background: red;
+  width: 100%;
+  background-color: #f4f9ff;
+  padding: 16px 0 16px 0;
+}
+.page-footer .icon-img {
+  width: 30px;
+  height: 30px;
+}
+
+.page-footer span {
+  
+  
+  font-weight: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #000000;
+}
+.page-footer .text-underline {
+  font-weight: bold;
+  font-family: Roboto;
+  font-size: 14px;
+  text-decoration: underline;
+}
+
+.page-footer .copyright-l {
+  text-align: left;
+}
+
+.page-footer .copyright-r {
+  text-align: right;
+}
+
+.page-footer .font-family {
+  font-family:  Roboto-Regular;
+  font-size: 13px;
+}
+
+@media only screen and (max-width: 768px) {
+  .page-footer .copyright-l {
+    text-align: center;
+  }
+  .page-footer .copyright-r {
+    text-align: center;
+  }
+}
